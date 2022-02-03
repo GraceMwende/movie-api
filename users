@@ -1,0 +1,61 @@
+\l
+DROP DATABASE SCHOOL
+\l
+DROP DATABASE school
+\l;
+DROP DATABASE school;
+DROP DATABASE school;
+\l
+CREATE DATABASE school;
+CREATE TABLE courses(name varchar, full_time boolean)
+CREATE TABLE courses(name varchar, full_time boolean)
+CREATE TABLE courses (name varchar, full_time boolean)
+ALTER TABLE courses ADD student_number integer
+\dt
+CREATE TABLE courses (name varchar, full_time boolean)
+\dt
+CREATE TABLE courses (name varchar, full_time boolean)
+\dt
+\school
+\c school
+CREATE TABLE courses (name varchar, full_time boolean)
+\dt
+\d courses
+CREATE TABLE courses (name varchar, full_time boolean)
+\dt
+/q
+\q
+\l
+\c school
+\dt
+\q
+CREATE DATABASE watchlist;
+\l
+\c watchlist
+\dt
+\h
+\?
+\q
+\l
+\q
+\l
+\c watchlist
+select * from users;
+select * from users;
+select * from users;
+select * from users;
+select * from users;
+\q
+\l
+\c watchlist
+\dt
+selext * from users;
+selwct * from users;
+select * from users;
+select * from users;
+\dt
+\dt
+SELECT * FROM roles;
+SELECT * FROM ROLES;
+\d roles
+\s users
