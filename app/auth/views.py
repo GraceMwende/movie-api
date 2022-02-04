@@ -4,7 +4,7 @@ from . import auth
 from ..models import User
 from .forms import RegistrationForm,LoginForm
 from .. import db
-from flask_login import login_required
+from flask_login import login_required,login_user,logout_user
 
 @auth.route('/login',methods=['GET','POST'])
 def login():
@@ -15,7 +15,7 @@ def login():
       login_user(user,login_form.remember.data)
       return redirect(request.args.get('next') or url_for('main.index'))
 
-      flash('Invalid username or password')
+    flash('Invalid username or password')
   
   title = 'Watchlist Login'
 
